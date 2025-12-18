@@ -28,11 +28,11 @@ opt.tabstop      = 2
 opt.shiftwidth   = 2
 opt.softtabstop  = 2
 
--- クリップボード共有（macなら plus 推奨）
+-- クリップボード共有（macなら plus）
 opt.clipboard = "unnamedplus"
 
 -- ======================
--- おすすめ追加設定
+-- 追加設定
 -- ======================
 
 -- カラー＆見た目
@@ -142,8 +142,8 @@ require("lazy").setup({
     priority = 1000,
     config = function()
       require("tokyonight").setup({
-        style = "storm",        -- "storm" / "moon" もOK
-        transparent = true,     -- ★ 透過
+        style = "storm",
+        transparent = true,
         terminal_colors = true,
         styles = {
           sidebars = "transparent",
